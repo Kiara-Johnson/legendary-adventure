@@ -1,0 +1,51 @@
+body {
+  justify-content: center;
+  background-color: #6769f0;
+  color: antiquewhite;
+}
+.logo {
+   background-color: #a0e4f8;
+   font-family: "Cedarville Cursive", cursive;
+   font-size: 25px;
+   color: #f7f5af;
+   text-shadow: 3px 2px 3px #474747;
+}
+.header {
+  border-style: double;
+  border-color: #fa0f0f;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2fr;
+}
+h1 {
+   background-color: #a0e4f8;
+   font-family: "Cedarville Cursive", cursive;
+}
+span {
+  display: flex;
+
+  text-align: left;
+  margin: 0px;
+}
+.smtxt {
+  font-size: 18px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aqua;
+}
+a {
+   color: #f89410;
+}
+#welcome {
+  background-color: aquamarine;
+}
+#footer {
+  /* display: flex;
+  justify-content: center; */
+  position: relative;
+  bottom: 0;
+}
