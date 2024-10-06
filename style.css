@@ -1,51 +1,66 @@
 body {
   justify-content: center;
-  background-color: #6769f0;
+  /* background-color: #0a0b38; */
+  
+  background-image: linear-gradient(rgba(10, 11, 56, .75), rgba(255, 125, 210, .5), rgba(200, 110, 50, 0.719));
+  background-attachment: fixed;
   color: antiquewhite;
 }
+header {
+  border-style: double;
+  border-color: #350202;
+  display: flex;
+  margin: 2fr;
+}
 .logo {
-   background-color: #a0e4f8;
+   background-image: url(./images/IMG_20240216_070508465.jpg);
+   /* background-color: #a0e4f8; */
+   height: 90%;
+   max-width: 90%;
    font-family: "Cedarville Cursive", cursive;
    font-size: 25px;
    color: #f7f5af;
    text-shadow: 3px 2px 3px #474747;
-}
-.header {
-  border-style: double;
-  border-color: #fa0f0f;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 2fr;
+  
 }
 h1 {
-   background-color: #a0e4f8;
    font-family: "Cedarville Cursive", cursive;
+  
+   /* margin:auto; */
+   border-style: double;
+   border-color: #fa0f0f;
 }
 span {
   display: flex;
-
   text-align: left;
   margin: 0px;
 }
 .smtxt {
   font-size: 18px;
 }
+.pageNav {
+  margin: 15px;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: aqua;
+  border-style: double;
+  border-color: #fa0f0f;
+  /* background-color: aqua; */
+  margin: 5%;
 }
 a {
-   color: #f89410;
+   color: #070116;
 }
 #welcome {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  text-shadow: 3px 2px 3px #474747;
 }
+
 #footer {
-  /* display: flex;
-  justify-content: center; */
-  position: relative;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }

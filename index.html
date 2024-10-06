@@ -13,31 +13,39 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <div class="header">
+    <header>
       <h1 class="logo">
         The Wandering Worlds <span class="smtxt">Of C.A. James</span>
       </h1>
-      <nav class="pageNav">
-        <h2>
-          <a id="home" href="./index.html">Home</a>
+      <div id="pageNav">
+        <nav class="pageNav">
+          <h2>
+            <a class="pageNav" id="releases" href="./Pages/releases.html"
+              >Releases</a
+            >
 
-          <a id="releases" href="./Pages/releases.html">Release Schedule</a>
+            <a class="pageNav" id="series" href="./Pages/series.html">Series</a>
 
-          <a id="series" href="./Pages/series.html">Series</a>
-
-          <a id="about" href="./Pages/about.html">About</a>
-        </h2>
-      </nav>
-    </div>
-    <div id="welcome">
-      <h3 class="welcome1">Welcome to the Wandering Worlds of C.A. James!</h3>
-      <p class="welcome1">
-        This is where you can find updates about new releases, current projects,
-        and all my series.
-      </p>
-    </div>
+            <a class="pageNav" id="about" href="./Pages/about.html">About</a>
+          </h2>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div id="welcome">
+        <h3 class="welcome1">Welcome to the Wandering Worlds of C.A. James!</h3>
+        <p class="welcome1">
+          This is where you can find updates about new releases, current
+          projects, all my series, and some of my own adventures.
+        </p>
+      </div>
+      <div class="adventures">
+        <h3 class="adventures">Adventures</h3>
+        <img id="imgMain" src="./images/grand-canyon.jpg" alt="Sunrise at the Grand Canyon">
+      </div>
+    </main>
     <div id="footer">
-      <nav id="footer">
+      <nav class="footer">
         <h2>
           <a id="facebook" href="https://www.facebook.com">Facebook</a>
         </h2>
